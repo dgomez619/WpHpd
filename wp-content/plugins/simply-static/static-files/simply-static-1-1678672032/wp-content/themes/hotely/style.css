@@ -1,0 +1,255 @@
+/*
+Theme Name: Hotely
+Author: Britetechs
+Author URI: http://britetechs.com
+Created by: britetechs
+Description: Hotely is a WordPress theme for hotel and resorts. Hotely theme also suitable for corporate, portfolio, creative agencies, tours & travel agencies, personal blog, photography, cuisines, recipes, bakery items and any other business websites. This theme have many new cool features and hotel booking functionalities.
+Template: hotelone
+Tested up to: 6.1.1
+Requires PHP: 5.6
+Version: 0.4
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Tags: sticky-post, one-column, two-columns, right-sidebar, custom-background, custom-header, custom-menu, editor-style, featured-images, footer-widgets, theme-options, threaded-comments, rtl-language-support, full-width-template, custom-logo, blog, e-commerce, portfolio
+Text Domain: hotely
+*/
+
+.header-top .header-social li, 
+.header-top .header-social li a {
+    border-radius: 100%;
+}
+
+.big_title{
+  background: transparent;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.big_title span{
+  color: var(--primary-color);
+}
+
+@media ( min-width: 768px){
+  .big_title{
+    font-size: 76px;
+  }
+
+}
+
+.hotel-btn{
+  font-weight: 600;
+}
+
+@media (max-width : 768px) {
+
+    .big_title {
+        font-size: 23px;
+    }
+
+    .slider_content {
+        font-size: 13px;
+    }
+}
+
+.navbar-nav > li > a{
+  font-weight: 600;
+}
+
+.navbar-nav>li:last-child>a {
+    padding-right: 15px;
+}
+
+.navbar-nav > li > a:before{
+  content: '';
+  display: block;
+  width: calc(100% - 30px);
+  height: 1px;
+  background-color: var(--primary-color);
+  position: absolute;
+  bottom: 25px;
+  left: 50%;
+  transition: .3s;
+  transform: translateX(-50%) translateY(-10px);
+  opacity: 0;
+}
+
+.navbar-nav > li:hover > a:before,
+.navbar-nav > li.current-menu-item > a:before,
+.navbar-nav > li.current-page-item > a:before,
+.navbar-nav > li:focus-within > a:before{
+  transform: translateX(-50%) translateY(0);
+  opacity: 0;
+}
+
+.gallery-grid .g-item {
+  padding: 10px;
+  float: left;
+}
+
+.all-gallery {
+  text-align: center;
+  margin-top: 40px;
+  display: block;
+}
+
+.g-zoom-in .g-item {
+  display: block;
+  overflow: hidden;
+}
+.g-zoom-in .g-item .inner-content {
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.g-zoom-in .g-item img {
+  display: block;
+  overflow: hidden;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+.g-zoom-in .g-item:hover img {
+  -ms-transform: scale(1.1, 1.1);
+  -webkit-transform: scale(1.1, 1.1);
+  transform: scale(1.1, 1.1);
+}
+
+.g-layout-full-width.container {
+  width: 100%;
+  max-width: none;
+  padding: 0px;
+}
+
+@media screen and (min-width: 720px) {
+  .g-col-1 .g-item {
+    width: 100%;
+  }
+  .g-col-1 .g-item:nth-child(1n+1) {
+    clear: left;
+  }
+
+  .g-col-2 .g-item {
+    width: 50%;
+  }
+  .g-col-2 .g-item:nth-child(2n+1) {
+    clear: left;
+  }
+
+  .g-col-3 .g-item {
+    width: 33.3333333333%;
+  }
+  .g-col-3 .g-item:nth-child(3n+1) {
+    clear: left;
+  }
+
+  .g-col-4 .g-item {
+    width: 25%;
+  }
+  .g-col-4 .g-item:nth-child(4n+1) {
+    clear: left;
+  }
+
+  .g-col-5 .g-item {
+    width: 20%;
+  }
+  .g-col-5 .g-item:nth-child(5n+1) {
+    clear: left;
+  }
+
+  .g-col-6 .g-item {
+    width: 16.6666666667%;
+  }
+  .g-col-6 .g-item:nth-child(6n+1) {
+    clear: left;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 720px) {
+  .g-col-1 .g-item {
+    width: 100%;
+  }
+  .g-col-1 .g-item:nth-child(1n+1) {
+    clear: left;
+  }
+
+  .g-col-2 .g-item {
+    width: 50%;
+  }
+  .g-col-2 .g-item:nth-child(2n+1) {
+    clear: left;
+  }
+
+  .g-col-3 .g-item {
+    width: 33.3333333333%;
+  }
+  .g-col-3 .g-item:nth-child(3n+1) {
+    clear: left;
+  }
+
+  .g-col-4 .g-item {
+    width: 25%;
+  }
+  .g-col-4 .g-item:nth-child(4n+1) {
+    clear: left;
+  }
+
+  .g-col-5 .g-item {
+    width: 20%;
+  }
+  .g-col-5 .g-item:nth-child(5n+1) {
+    clear: left;
+  }
+
+  .g-col-6 .g-item {
+    width: 16.6666666667%;
+  }
+  .g-col-6 .g-item:nth-child(6n+1) {
+    clear: left;
+  }
+}
+@media screen and (max-width: 576px) {
+  .g-col-1 .g-item {
+    width: 100%;
+  }
+  .g-col-1 .g-item:nth-child(1n+1) {
+    clear: left;
+  }
+
+  .g-col-2 .g-item {
+    width: 50%;
+  }
+  .g-col-2 .g-item:nth-child(2n+1) {
+    clear: left;
+  }
+
+  .g-col-3 .g-item {
+    width: 33.3333333333%;
+  }
+  .g-col-3 .g-item:nth-child(3n+1) {
+    clear: left;
+  }
+
+  .g-col-4 .g-item {
+    width: 25%;
+  }
+  .g-col-4 .g-item:nth-child(4n+1) {
+    clear: left;
+  }
+
+  .g-col-5 .g-item {
+    width: 20%;
+  }
+  .g-col-5 .g-item:nth-child(5n+1) {
+    clear: left;
+  }
+
+  .g-col-6 .g-item {
+    width: 16.6666666667%;
+  }
+  .g-col-6 .g-item:nth-child(6n+1) {
+    clear: left;
+  }
+}
+
+.card-room .more-link{
+  display: none;
+}
