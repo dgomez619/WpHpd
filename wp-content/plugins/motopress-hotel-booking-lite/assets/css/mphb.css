@@ -5,7 +5,7 @@
   clear: both;
 }
 .mphb-preloader {
-  background-image: url("../../images/loading.gif?ver=4.6.0");
+  background-image: url("/https://dgomez619.github.io/WpHpd/wp-content/plugins/motopress-hotel-booking-lite/images/loading.gif?ver=4.6.0");
   width: 20px;
   height: 20px;
   display: inline-block;
@@ -39,7 +39,7 @@
   bottom: 0;
   position: absolute;
   background-color: rgba(255, 255, 255, 0.5);
-  background-image: url("../../images/loading.gif?ver=4.6.0");
+  background-image: url("/https://dgomez619.github.io/WpHpd/wp-content/plugins/motopress-hotel-booking-lite/images/loading.gif?ver=4.6.0");
   background-size: 30px;
   background-position: center center;
   background-repeat: no-repeat;
@@ -201,7 +201,7 @@
   bottom: 0;
   position: absolute;
   background-color: rgba(255, 255, 255, 0.5);
-  background-image: url("../../images/loading.gif?ver=4.6.0");
+  background-image: url("/https://dgomez619.github.io/WpHpd/wp-content/plugins/motopress-hotel-booking-lite/images/loading.gif?ver=4.6.0");
   background-size: 30px;
   background-position: center center;
   background-repeat: no-repeat;

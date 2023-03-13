@@ -1014,12 +1014,12 @@ input[type="search"].search-field {
 .section .seprator {
     width: 200px;
     height: 25px;
-    background-image: url('images/seprator.png');
+    background-image: url('/https://dgomez619.github.io/WpHpd/wp-content/themes/hotelone/images/seprator.png');
     margin: 10px auto;
 }
 
 .section .sectionOverlay .seprator {
-    background-image: url('images/seprator2.png');
+    background-image: url('/https://dgomez619.github.io/WpHpd/wp-content/themes/hotelone/images/seprator2.png');
 }
 
 .section .sectionOverlay .section-title {
